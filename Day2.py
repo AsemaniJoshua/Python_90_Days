@@ -1,5 +1,11 @@
 # Taking user input and calculating them
+import string
+from xmlrpc.client import Boolean
 
+# To convert a value to string, use str()
+# To convert a value to integer, use int()
+# To convert a value to float, use float()
+# To convert a value to Boolean, use bool()
 from datetime import datetime
 #Taking User Input
 Name = input("Please Enter your Name: ")
