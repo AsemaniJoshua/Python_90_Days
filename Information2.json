@@ -1,0 +1,16 @@
+{
+  "Identification": [
+    {
+      "id": 1,
+      "name": "ama",
+      "age": 12,
+      "email": "ama1@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "kofi",
+      "age": 15,
+      "email": "kofi2@gmail.com"
+    }
+  ]
+}
