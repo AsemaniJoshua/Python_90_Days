@@ -7,6 +7,7 @@
 
 # Importing JSON Library
 import json
+import requests
 
 # people_string = '''
 #     {
@@ -70,3 +71,6 @@ else:
 
 with open("Information2.json", "w") as file:
     json.dump(data, file, indent=2)
+
+
+
