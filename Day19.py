@@ -5,3 +5,7 @@
 # - Project:
 # - Create a simple encryption/decryption tool using the cryptography library (e.g., AES encryption)
 
+from cryptography.fernet import Fernet
+
+
+
