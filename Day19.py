@@ -7,5 +7,6 @@
 
 from cryptography.fernet import Fernet
 
-
+keys = Fernet.generate_key()
+print(keys)
 
