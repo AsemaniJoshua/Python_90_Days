@@ -1,0 +1,7 @@
+This is encrypted using the Fernet Encryption.
+
+Its nice trying this out.
+
+Happy Coding !!!
+
+Bye 
