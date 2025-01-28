@@ -14,7 +14,8 @@ import shutil
 # Creating a directory
 # os.makedirs("Destination_Folder", exist_ok=True)
 
-shutil.copy("Destination_Folder/File_to_Move.txt","File_to_Move.txt")
+# shutil.copy("Destination_Folder/File_to_Move.txt","File_to_Move.txt")
+# shutil.move("Destination_Folder/File_to_Move.txt","File_to_Move.txt")
 
 
 
