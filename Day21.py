@@ -11,6 +11,9 @@
 import os
 import shutil
 
+
+# Simple Format
+
 # Creating a directory
 # os.makedirs("Destination_Folder", exist_ok=True)
 
@@ -18,4 +21,18 @@ import shutil
 # shutil.move("Destination_Folder/File_to_Move.txt","File_to_Move.txt")
 
 
+# Format using Extension
 
+# path = input("Enter path to organize files: ")
+# files =  os.listdir(path)
+
+# for file in files:
+#     filename, extension = os.path.splitext(file)
+
+#     extension = extension[1:]
+    
+#     if os.path.exists(f"{path}/{extension}"):
+#         shutil.move(f"{path}/{file}", f"{path}/{extension}/{file}")
+#     else:
+#         os.makedirs(f"{path}/{extension}")
+#         shutil.move(f"{path}/{file}", f"{path}/{extension}/{file}")
