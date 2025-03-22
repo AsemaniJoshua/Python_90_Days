@@ -45,7 +45,7 @@ directory = input("Enter hte path of the folder you want to organize its files: 
 
 file_types = {
     "images" : [".jpg", ".jpeg", ".png", ".webp"],
-    "documents": [".docx", ".txt", ".ppx", ".pdf"],
+    "documents": [".docx", ".txt", ".ppx", ".pptx", ".pdf"],
     "videos" : [".mp4", ".wav"],
     "audios" : [".mp3"],
     "Spreadsheets" : [".xls", ".xlsx"],

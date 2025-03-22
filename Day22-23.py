@@ -14,9 +14,9 @@ def port_scanner():
     try:
         ascii_banner = pyfiglet.figlet_format("PORT SCANNER")
         print(ascii_banner)
-        print("_"*50)
         target = input("Enter the target IP address: ")
         targetIP = socket.gethostbyname(target)
+        print("_"*50)
         print("Starting scan on host: ", targetIP, "at ", datetime.now())
         print("_"*50)
         for i in range(1, 65535):
